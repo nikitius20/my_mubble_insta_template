@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "instamubble"
+version = "0.2.0"
+description = ""
+authors = ["vladislavkovalskyi <v.darknesssb@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+certifi = "^2024.8.30"
+aiohttp = "^3.11.2"
+pydantic = "^2.10.3"
+
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^7.1.1"
+black = "^24.10.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
